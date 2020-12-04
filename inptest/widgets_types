@@ -1,0 +1,542 @@
+ 'zprettycheckboxwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Z pretty checkbox widget');
+                $column->data = [
+                    '111111111' => Az::l('111111111'),
+                    '222222222' => Az::l('222222222'),
+                    '333333333' => Az::l('333333333'),
+                    '444444444' => Az::l('444444444'),
+                    '555555555' => Az::l('555555555'),
+                    '666666666' => Az::l('666666666'),
+                ];
+                $column->widget = ZPrettyCheckboxWidget::class;
+
+                return $column;
+            },
+
+
+            'zfabianmultiselect' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('zfabianmultiselect');
+                $column->widget = ZFabianMultiselectWidget::class;
+
+                return $column;
+            },
+
+
+            'string_3' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('string_5');
+                $column->widget = string_5::class;
+
+                return $column;
+            },
+
+
+            'zckeditorwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeText;
+                $column->title = Az::l('Zckeditorwidget');
+                $column->widget = ZCKEditorWidget::class;
+
+                return $column;
+            },
+
+
+            'zckeditorjswidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeText;
+                $column->title = Az::l('zckeditorjswidget');
+                $column->widget = ZCKeditorJsWidget::class;
+
+                return $column;
+            },
+
+
+            'zselectcountrieswidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zselectcountrieswidget');
+                $column->widget = ZSelectCountriesWidget::class;
+
+                return $column;
+            },
+
+
+            'zinputwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zinputwidget');
+                $column->widget = ZHInputWidget::class;
+
+                return $column;
+            },
+
+
+            'zinputuniversewidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('ZInputUniverseWidget');
+                $column->widget = ZInputUniverseWidget::class;
+
+                return $column;
+            },
+
+
+            'ztextareawidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Ztextareawidget');
+                $column->widget = ZTextAreaWidget::class;
+
+                return $column;
+            },
+
+
+            'zcmultiselectwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('ZCMultiselectWidget');
+                $column->widget = ZCMultiselectWidget::class;
+
+                return $column;
+            },
+
+
+            'ziconpickerwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Ziconpickerwidget');
+                $column->widget = ZIconPickerWidget::class;
+
+                return $column;
+            },
+
+
+            'zfontawesomeiconpickerwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zfontawesomeiconpickerwidget');
+                $column->widget = ZFontAwesomeIconPickerWidget::class;
+
+                return $column;
+            },
+
+
+            'jsonb_4' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zhcheckboxbuttongroupwidget');
+                $column->data = [
+                    'Button1' => Az::l('Button1'),
+                    'Button2' => Az::l('Button2'),
+                    'Button3' => Az::l('Button3'),
+                    'Button4' => Az::l('Button4'),
+                    'Button5' => Az::l('Button5'),
+                    'Button6' => Az::l('Button6'),
+                ];
+                $column->widget = ZHCheckboxButtonGroupWidget::class;
+
+                return $column;
+            },
+
+
+            'zradiobuttongroup' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zradiobuttongroup');
+                $column->data = [
+                    'Elnur' => Az::l('Elnur'),
+                    'Suyunov' => Az::l('Suyunov'),
+                    'Abduvohid ogli' => Az::l('Abduvohid ogli'),
+                ];
+                $column->widget = ZRadioButtonGroup::class;
+
+                return $column;
+            },
+
+
+            'zmultiselectwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zmultiselectwidget');
+                $column->data = [
+                    '1' => Az::l('1'),
+                    '2' => Az::l('2'),
+                    '3' => Az::l('3'),
+                ];
+                $column->widget = ZMultiselectWidget::class;
+
+                return $column;
+            },
+
+
+            'zcheckboxlistwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zcheckboxlistwidget');
+                $column->data = [
+                    '111111111' => Az::l('111111111'),
+                    '222222222' => Az::l('222222222'),
+                    '333333333' => Az::l('333333333'),
+                    '444444444' => Az::l('444444444'),
+                    '555555555' => Az::l('555555555'),
+                    '666666666' => Az::l('666666666'),
+                ];
+                $column->widget = ZCheckboxListWidget::class;
+
+                return $column;
+            },
+
+
+            'zhcheckboxwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeInteger;
+                $column->title = Az::l('Zhcheckboxwidget');
+                $column->widget = ZHCheckboxWidget::class;
+
+                return $column;
+            },
+
+
+            'zhinputwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Z hinputwidget');
+
+                return $column;
+            },
+
+
+            'zinputmaskwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Z input mask widget');
+                $column->widget = ZInputMaskWidget::class;
+
+                return $column;
+            },
+
+
+            'ztelinputwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Ztelinputwidget');
+                $column->widget = ZTelInputWidget::class;
+
+                return $column;
+            },
+
+
+            'zhpasswordinputwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zhpasswordinputwidget');
+                $column->widget = ZHPasswordInputWidget::class;
+
+                return $column;
+            },
+
+
+            'string_3' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zhradiobuttongroupwidget');
+                $column->data = [
+                    '111111111' => Az::l('111111111'),
+                    '222222222' => Az::l('222222222'),
+                    '333333333' => Az::l('333333333'),
+                    '444444444' => Az::l('444444444'),
+                    '555555555' => Az::l('555555555'),
+                    '666666666' => Az::l('666666666'),
+                ];
+                $column->widget = ZHRadioButtonGroupWidget::class;
+
+                return $column;
+            },
+
+
+            'zradiolistwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zradiolistwidget');
+                $column->data = [
+                    '111111111' => Az::l('111111111'),
+                    '222222222' => Az::l('222222222'),
+                    '333333333' => Az::l('333333333'),
+                    '444444444' => Az::l('444444444'),
+                    '555555555' => Az::l('555555555'),
+                    '666666666' => Az::l('666666666'),
+                ];
+                $column->widget = ZRadioListWidget::class;
+
+                return $column;
+            },
+
+
+            'string_4' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeText;
+                $column->title = Az::l('Zhtextareawidget');
+                $column->widget = ZHTextareaWidget::class;
+
+                return $column;
+            },
+
+
+            'string_4' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkcheckboxxwidget');
+                $column->widget = ZKCheckboxXWidget::class;
+
+                return $column;
+            },
+
+
+            'jsonb_3' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zkdatecontrolwidget');
+                $column->widget = ZKDatecontrolWidget::class;
+
+                return $column;
+            },
+
+
+            'string_3' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeDateTime;
+                $column->title = Az::l('Zkdatepickerwidget');
+                $column->widget = ZKDatepickerWidget::class;
+                $column->options = [
+                    'config' => [
+                        'type' => 2,
+                        'pickerButton' => [
+                            'icon' => '',
+                        ],
+                        'removeButton' => [
+                            'icon' => '',
+                        ],
+                        'value' => '23-Feb-1982',
+                        'pluginOptions' => [
+                            'autoclose' => true,
+                            'format' => 'dd-M-yyyy',
+                        ],
+                    ],
+                ];
+
+                return $column;
+            },
+
+
+            'string_4' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkdaterangepickerwidget');
+                $column->widget = ZKDateRangePickerWidget::class;
+                $column->options = [
+                    'config' => [
+                        'attributeStart' => 'string_5',
+                        'attributeEnd' => 'zknumberwidget',
+                        'hasIcon' => false,
+                        'icon' => 'fas fa-users',
+                    ],
+                ];
+
+                return $column;
+            },
+
+
+            'string_5' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeDateTime;
+                $column->title = Az::l('Zkdatetimepickerwidget');
+                $column->widget = ZKDateTimePickerWidget::class;
+
+                return $column;
+            },
+
+
+            'zfileinputwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('Zfileinputwidget');
+
+                return $column;
+            },
+
+
+            'zknumberwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zknumberwidget');
+                $column->widget = ZKNumberWidget::class;
+
+                return $column;
+            },
+
+
+            'string_1' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkpasswordinputwidget');
+                $column->widget = ZKPasswordInputWidget::class;
+
+                return $column;
+            },
+
+
+            'string_2' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkrangeinputwidget');
+                $column->widget = ZKRangeInputWidget::class;
+
+                return $column;
+            },
+
+
+            'zselect2widget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zselect2widget');
+                $column->widget = ZSelect2WidgetNew2::class;
+
+                return $column;
+            },
+
+
+            'zselect2ajaxwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zselect2ajaxwidget');
+                $column->widget = ZKSelect2AjaxWidget::class;
+
+                return $column;
+            },
+
+
+            'zselect2multiplewidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('Zselect2multiplewidget');
+                $column->widget = ZSelect2WidgetNew2::class;
+
+                return $column;
+            },
+
+
+            'zkselect2widget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkselect2widget');
+                $column->data = 'zetsoft\dbdata\ALL\AsrorData';
+                $column->widget = ZKSelect2Widget::class;
+
+                return $column;
+            },
+
+
+            'zkselect2widgetmultiple' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('zkselect2widgetmultiple');
+                $column->data = 'zetsoft\dbdata\ALL\AsrorData';
+                $column->widget = ZKSelect2Widget::class;
+                $column->multiple = true;
+
+                return $column;
+            },
+
+
+            'string_3' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zksortableinputwidget');
+                $column->data = 'zetsoft\dbdata\ALL\AsrorData';
+                $column->widget = ZKSortableInputWidget::class;
+
+                return $column;
+            },
+
+
+            'string_4' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkstarratingwidget');
+                $column->widget = ZKStarRatingWidget::class;
+
+                return $column;
+            },
+
+
+            'bool_1' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zkswitchinputwidget');
+                $column->widget = ZKSwitchInputWidget::class;
+
+                return $column;
+            },
+
+
+            'zktimepickerwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zktimepickerwidget');
+                $column->widget = ZKTimePickerWidget::class;
+
+                return $column;
+            },
+
+
+            'zktouchspinwidget' => static function (FormDb $column) {
+
+                $column->title = Az::l('Zktouchspinwidget');
+                $column->widget = ZKTouchSpinWidget::class;
+
+                return $column;
+            },
+
+
+            /*'zmultiwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('zmultiwidget');
+                $column->widget = ZMultiWidget::class;
+
+                return $column;
+            },*/
+
+
+            'zperiodpickerwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zperiodpickerwidget');
+                $column->widget = ZPeriodPickerWidget::class;
+                $column->options = [
+                    'config' => [
+                        'attributeStart' => 'zperiodpickerwidget',
+                        'attributeEnd' => 'zperiodpickerwidget',
+                    ],
+                ];
+
+                return $column;
+            },
+
+
+            'string-3' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJson;
+                $column->title = Az::l('Zpicklistwidget');
+                $column->widget = ZPicklistWidget::class;
+
+                return $column;
+            },
+
+
+            'ztinycloudwidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeJsonb;
+                $column->title = Az::l('Ztinycloudwidget');
+                $column->widget = ZTinyCloudWidget::class;
+
+                return $column;
+            },
+
+
+            'zrecaptchawidget' => static function (FormDb $column) {
+
+                $column->dbType = dbTypeBoolean;
+                $column->title = Az::l('ZReCaptchaWidget');
+                $column->widget = ZRecaptchaWidget::class;
+
+                return $column;
+            },

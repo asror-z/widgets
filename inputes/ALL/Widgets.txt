@@ -1,0 +1,79 @@
+
+<<-            1   done
+ZAJqueryEditableSelectWidget.php     active da xato
+ZCheckboxButtonGroup.php             active da xato
+ZCheckboxImageWidget.php
+ZCheckboxListWidget.php
+ZCheckBoxWidget.php                  active da xato
+string_5.php            active da xato
+ZCKeditorJsWidget.php
+ZCKEditorWidget.php
+ZClockpickerWidget.php
+ZCrlcuMultiselectWidget.php           
+ZFabianMultiselectWidget.php         sample da xato
+ZFileInputWidget.php
+ZFilePondNewWidget.php
+ZFilepondWidget.php
+ZFontAwesomeIconPickerWidget.php
+
+done            ->>
+
+<<-     2-done
+ZHCheckboxButtonGroupWidget.php
+ZHCheckboxWidget.php
+ZHDropDownListWidget.php
+ZHFileInputWidget.php
+ZHHiddenInputWidget.php
+ZHInputGroupWidget.php
+ZHInputWidget.php
+ZHPasswordInputWidget.php
+ZHRadioButtonGroupWidget.php
+ZHTextareaWidget.php
+ZIconPickerWidget.php
+ZInputMaskWidget.php
+ZInputUniverseWidget.php
+ZInputWidget.php                 native + zhimg ishlamayobti
+ZJqueryFileUploadWidget.php
+ZKCheckboxXWidget.php
+ZKDatecontrolWidget.php
+->>
+
+          3
+ZKDatepickerWidget.php
+ZKDateRangePickerWidget.php
+ZKDateTimePickerWidget.php
+ZKDepDropWidget.php
+ZKNumberWidget.php
+ZKPasswordInputWidget.php
+ZKRangeInputWidget.php
+ZKSelect2AjaxWidget.php
+ZKSelect2Widget.php
+ZKSortableInputWidget.php
+ZKStarRatingWidget.php
+ZKSwitchInputWidget.php
+ZKTimePickerWidget.php                  Sample lari ishalamayobti
+ZKTouchSpinWidget.php
+ZKTypeaheadWidget.php
+ZMultipleInputNewWidget.php
+ZMultiselectWidget.php
+ZPeriodPickerWidget.php
+<<-        4 done
+ZPicklistWidget.php
+ZPrettyCheckboxWidget.php           activeNew da xato
+ZRadioButtonGroup.php
+ZRadioListWidget.php
+ZReCaptchaWidgetOld.php
+ZSelect2Widget.php
+ZSelect2WidgetNew2.php
+ZSelect2WidgetNew3.php
+ZSelectable2Widget.php
+ZSelectCountriesWidget.php
+ZSelectize2Widget.php
+ZSelectizeWidget.php                ZSelectize2Widget-active                                              ZSelectizeWidgetNew2-sample da xato
+ZSelectizeWidgetBunyod.php
+ZStarRatingWidget.php
+ZTelInputWidget.php
+ZTextAreaWidget.php
+ZTinyCloudWidget.php
+ZTitatoggleWidget.php                active da xato
+->>
